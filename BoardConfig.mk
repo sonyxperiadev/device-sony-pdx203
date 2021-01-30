@@ -27,7 +27,9 @@ endif
 # Platform
 PRODUCT_PLATFORM := edo
 
+# Kernel cmdline
 BOARD_KERNEL_CMDLINE += androidboot.hardware=pdx203
+BOARD_KERNEL_CMDLINE += androidboot.fstab_suffix=pdx203
 
 # Partition information
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
