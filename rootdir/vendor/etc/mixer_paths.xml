@@ -438,9 +438,9 @@
     <ctl name="HPHR Volume" value="20" />
     <ctl name="EAR SPKR PA Gain" value="G_DEFAULT" />
 
-    <ctl name="TX_DEC0 Volume" value="84" />
-    <ctl name="TX_DEC1 Volume" value="84" />
-    <ctl name="TX_DEC2 Volume" value="84" />
+    <ctl name="TX_DEC0 Volume" value="102" />  <!-- WIRED HS MICVOL -->
+    <ctl name="TX_DEC1 Volume" value="98" />   <!-- MIC BOTTOM -->
+    <ctl name="TX_DEC2 Volume" value="98" />   <!-- MIC TOP -->
     <ctl name="TX_DEC3 Volume" value="84" />
     <ctl name="TX_DEC4 Volume" value="84" />
     <ctl name="TX_DEC5 Volume" value="84" />
@@ -2260,6 +2260,7 @@
         -->
         <ctl name="SEN_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
         <ctl name="VoiceMMode1_Tx Mixer TX_CDC_DMA_TX_3_MMode1" value="1" />
+        <ctl name="TX_DEC2 Volume" value="120" /> <!-- Noise cancellation mic -->
     </path>
 
     <path name="voicemmode1-call headphones">
@@ -2353,6 +2354,7 @@
         -->
         <ctl name="SEN_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
         <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_3_MMode2" value="1" />
+        <ctl name="TX_DEC2 Volume" value="120" /> <!-- Noise cancellation mic -->
     </path>
 
     <path name="voicemmode2-call headphones">
@@ -3129,6 +3131,7 @@
         <ctl name="TX DMIC MUX1" value="DMIC0" />
         <ctl name="TX_AIF1_CAP Mixer DEC2" value="1" />
         <ctl name="TX DMIC MUX2" value="DMIC3" />
+        <ctl name="TX_DEC2 Volume" value="118" /> <!-- Noise cancellation mic -->
     </path>
 
     <path name="speaker-dmic-endfire">
@@ -3137,6 +3140,7 @@
         <ctl name="TX DMIC MUX2" value="DMIC4" />
         <ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
         <ctl name="TX DMIC MUX1" value="DMIC1" />
+        <ctl name="TX_DEC2 Volume" value="124" /> <!-- Noise cancellation mic -->
     </path>
 
     <path name="dmic-endfire">
