@@ -16,7 +16,7 @@ PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_xqat51.mk \
                      $(LOCAL_DIR)/aosp_xqat52.mk
 
 COMMON_LUNCH_CHOICES += \
-    aosp_xqat51-eng \
-    aosp_xqat51-userdebug \
-    aosp_xqat52-eng \
-    aosp_xqat52-userdebug
+    aosp_xqat51-ap2a-eng \
+    aosp_xqat51-ap2a-userdebug \
+    aosp_xqat52-ap2a-eng \
+    aosp_xqat52-ap2a-userdebug
